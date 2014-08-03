@@ -1,0 +1,73 @@
+
+/*==========================================================================================
+	
+This file contains styles related to the color scheme of the template
+
+==========================================================================================*/
+
+body{font-size:12px;
+line-height:1;
+font-family:'Source Sans Pro',Arial, sans-serif;
+color:#333;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+background:#F8F9DF url("") no-repeat fixed center center;
+
+}
+
+
+a{color:#36B1BF;text-decoration:none;}
+a:hover{color:#4AD9D9;text-decoration:none;}
+
+
+.logo{margin-bottom:20px;
+font-weight:bold;
+font-size:45px;
+color:#333;}
+
+ul#countdown li{
+color:#333;
+}
+
+.mask{
+background:#BDDE2C;
+}
+
+
+.d-holder, .icon-holder{
+background:#BDDE2C;
+border:10px solid rgba(189,222,44, 0.3) !important;
+-moz-background-clip: padding;    
+-webkit-background-clip: padding;  
+background-clip: padding-box; 
+}
+.icon-holder{border:5px solid rgba(189,222,44, 0.3) !important;}
+
+.signup-2 .submit{
+background:#BDDE2C;
+}
+
+.back-title{
+border-bottom:1px solid #333;
+}
+
+.twitter a{background: url("../images/twitter-black.png") no-repeat  center center ;}
+.facebook a{background: url("../images/facebook-black.png") no-repeat  center center ;}
+.rss a{background: url("../images/rss-black.png") no-repeat  center center ;}
+.pinterest a{background: url("../images/pinterest-black.png") no-repeat  center center ;}
+.linkedin a{background: url("../images/linkedin-black.png") no-repeat  center center ;}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px){
+.d-holder{border:15px solid rgba(189,222,44, 0.3) !important;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (max-width: 767px) {
+ul#countdown li{margin-right:40px; margin-bottom:40px;} 
+}
+
